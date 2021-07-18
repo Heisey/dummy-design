@@ -6,7 +6,7 @@ import postcss from "rollup-plugin-postcss";
 
 const packageJson = require("./package.json");
 
-export default {
+export default [{
   input: "src/index.ts",
   external: [
     "styled-components"
@@ -32,4 +32,4 @@ export default {
       extensions: ['.css']
     })
   ]
-};
+}];

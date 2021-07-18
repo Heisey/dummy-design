@@ -1,3 +1,7 @@
-import { Button } from "./components";
+import { Heading } from './components'
 
-export { Button };
+const lib = {
+  Heading
+}
+
+export default lib
